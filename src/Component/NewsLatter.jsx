@@ -3,12 +3,14 @@ import TrackVisibility from "react-on-screen";
 
 export const Newslatter = ({ status, message, onValidated }) => {
   let input;
-  const submit = () =>
+  const submit = (e) => {
+    e.preventDefault();
     input &&
-    input.value.indexOf("@") > -1 &&
-    onValidated({
-      EMAIL: input.value,
-    });
+      input.value.indexOf("@") > -1 &&
+      onValidated({
+        EMAIL: input.value,
+      });
+  };
 
   return (
     <Col lg={12}>
@@ -29,10 +31,10 @@ export const Newslatter = ({ status, message, onValidated }) => {
                 </h3>
                 {status === "sending" && <Alert>Sending...</Alert>}
                 {status === "error" && (
-                  <Alert variant="danger"  >{ message }</Alert>
+                  <Alert variant="danger">{message}</Alert>
                 )}
                 {status === "success" && (
-                  <Alert variant="success" >{ message }</Alert>
+                  <Alert variant="success">{message}</Alert>
                 )}
               </Col>
               <Col md={5} xl={6}>
@@ -54,4 +56,3 @@ export const Newslatter = ({ status, message, onValidated }) => {
     </Col>
   );
 };
-
