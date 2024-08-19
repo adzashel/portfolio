@@ -912,6 +912,7 @@ button:hover .button-text {
 @media only screen and (min-width: 320px) and (max-width: 463px) {
   body {
     overflow-x:hidden ;
+    max-width: fit-content;
   }
   /* Navbar CSS */
   .nav-links {
