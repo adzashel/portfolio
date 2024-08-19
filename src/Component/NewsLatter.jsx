@@ -45,7 +45,7 @@ export const Newslatter = ({ status, message, onValidated }) => {
                       type="email"
                       placeholder="Email Address"
                     />
-                    <button onClick={submit}>Submit</button>
+                    <button onClick={submit} type="button">Submit</button>
                   </div>
                 </form>
               </Col>
