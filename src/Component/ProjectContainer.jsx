@@ -1,4 +1,4 @@
-import { Tab, Nav, Row } from "react-bootstrap";
+import { Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import { ProjectCards2 } from "../Component/ProjectCards2";
 import TrackVisibility from "react-on-screen";
@@ -34,18 +34,18 @@ export const ProjectContainer = ({ projectData, projectData2 }) => {
         id="slideInUp"
       >
         <Tab.Pane eventKey="first">
-          <Row>
+          <div className="project-container">
             {projectData.map((project, index) => {
               return <ProjectCard key={index} {...project} />;
             })}
-          </Row>
+          </div>
         </Tab.Pane>
         <Tab.Pane eventKey="second">
-          <Row>
+          <div className="project-container">
             {projectData2.map((project2, index) => {
               return <ProjectCards2 key={index} {...project2} />;
             })}
-          </Row>
+          </div>
         </Tab.Pane>
         <Tab.Pane eventKey="third">
           <p>

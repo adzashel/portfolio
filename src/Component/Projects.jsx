@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import projImg1 from "../assets/img/books.png";
 import projImg2 from "../assets/img/Calculator.png";
 import projImg3 from "../assets/img/project-img3.png";
@@ -7,8 +7,11 @@ import projImg5 from "../assets/img/project-img1.png";
 import projImg6 from "../assets/img/webport.png";
 import projImg7 from "../assets/img/todolist.png"
 import projImg8 from "../assets/img/WebDesign.png";
-import projImg9 from "../assets/img/githubuser.png";
+import projImg9 from "../assets/img/GitHub-search.png";
+import projectImg10 from "../assets/img/quote-generator.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import project11 from "../assets/img/BookApp.png";
+
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import { ProjectContainer } from '../Component/ProjectContainer';
@@ -65,13 +68,23 @@ export const Projects = () => {
       desc: "Figma , Photoshop",
       image: projImg8,
     },
+    {
+      title: "Quote Generator ",
+      desc: "ReactJs , NodeJs , JavaScript",
+      image: projectImg10,
+    },
+    {
+      title: "Book Application ",
+      desc: "ReactJs , NodeJs , JavaScript",
+      image: project11,
+    },
   ];
 
   return (
     <section className="project" id="projects">
       <Container>
         <Row>
-          <Col size={12}>
+          <div size={12}>
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
@@ -90,8 +103,8 @@ export const Projects = () => {
                 </div>
               )}
             </TrackVisibility>
+          </div>
             <ProjectContainer projectData={projects} projectData2={ projects2 }/>
-          </Col>
         </Row>
       </Container>
       <img className="background-image-right" src={colorSharp2}></img>

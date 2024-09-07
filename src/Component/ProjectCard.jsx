@@ -1,9 +1,8 @@
 /* eslint-disable react/prop-types */
-import { Col } from "react-bootstrap";
 
 export const ProjectCard = ({ title, description, imgUrl }) => {
   return (
-    <Col size={12} sm={6} md={6} lg={ 4 }>
+    <div >
       <div className="proj-imgbx">
         <img src={imgUrl} alt="photo" className="img-fluid"/>
         <div className="proj-txtx">
@@ -11,6 +10,6 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
           <span>{description}</span>
         </div>
       </div>
-    </Col>
+    </div>
   )
 }
