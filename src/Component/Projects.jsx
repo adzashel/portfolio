@@ -11,6 +11,7 @@ import projImg9 from "../assets/img/GitHub-search.png";
 import projectImg10 from "../assets/img/quote-generator.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import project11 from "../assets/img/BookApp.png";
+import project12 from '../assets/img/weatherApp.png'
 
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -77,6 +78,11 @@ export const Projects = () => {
       title: "Book Application ",
       desc: "ReactJs , NodeJs , JavaScript",
       image: project11,
+    },
+    {
+      title: " Weather Application ",
+      desc: "ReactJs , NodeJs , JavaScript",
+      image: project12,
     },
   ];
 
