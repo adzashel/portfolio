@@ -38,6 +38,11 @@ body {
   display: none;
 }
 
+.proj-text {
+  list-style-type: none;
+  color: inherit;
+}
+
 .bars {
   visibility: hidden;
 }

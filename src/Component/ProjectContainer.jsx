@@ -4,6 +4,7 @@ import { ProjectCards2 } from "../Component/ProjectCards2";
 import TrackVisibility from "react-on-screen";
 import "animate.css";
 
+
 export const ProjectContainer = ({ projectData, projectData2 }) => {
   return (
     <Tab.Container id="projects-tabs" defaultActiveKey="first">
@@ -43,7 +44,7 @@ export const ProjectContainer = ({ projectData, projectData2 }) => {
         <Tab.Pane eventKey="second">
           <div className="project-container">
             {projectData2.map((project2, index) => {
-              return <ProjectCards2 key={index} {...project2} />;
+              return <ProjectCards2 key={index} {...project2}/>;
             })}
           </div>
         </Tab.Pane>
