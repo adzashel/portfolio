@@ -3,9 +3,9 @@ import { ProjectCard } from "./ProjectCard";
 import { ProjectCards2 } from "../Component/ProjectCards2";
 import TrackVisibility from "react-on-screen";
 import "animate.css";
+import ProjectCard3 from "./ProjectCard3";
 
-
-export const ProjectContainer = ({ projectData, projectData2 }) => {
+export const ProjectContainer = ({ projectData, projectData2, projects3 }) => {
   return (
     <Tab.Container id="projects-tabs" defaultActiveKey="first">
       <TrackVisibility>
@@ -31,9 +31,7 @@ export const ProjectContainer = ({ projectData, projectData2 }) => {
           </Nav>
         )}
       </TrackVisibility>
-      <Tab.Content
-        id="slideInUp"
-      >
+      <Tab.Content id="slideInUp">
         <Tab.Pane eventKey="first">
           <div className="project-container">
             {projectData.map((project, index) => {
@@ -44,17 +42,16 @@ export const ProjectContainer = ({ projectData, projectData2 }) => {
         <Tab.Pane eventKey="second">
           <div className="project-container">
             {projectData2.map((project2, index) => {
-              return <ProjectCards2 key={index} {...project2}/>;
+              return <ProjectCards2 key={index} {...project2} />;
             })}
           </div>
         </Tab.Pane>
         <Tab.Pane eventKey="third">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-            quam, quod neque provident velit, rem explicabo excepturi id illo
-            molestiae blanditiis, eligendi dicta officiis asperiores delectus
-            quasi inventore debitis quo.
-          </p>
+          <div className="project-container">
+            {projects3.map((project3, index) => {
+              return <ProjectCard3 key={index} {...project3} />;
+            })}
+          </div>
         </Tab.Pane>
       </Tab.Content>
     </Tab.Container>

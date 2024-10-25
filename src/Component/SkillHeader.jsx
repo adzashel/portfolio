@@ -11,7 +11,7 @@ const SkillHeader = () => {
               ? "animate__animated animate__fadeIn animate__slow"
               : "animate__animated animate__fadeOut animate__slow"
           }
-        >
+        >56
           Skills
         </h2>
         <p

@@ -12,7 +12,7 @@ import projectImg10 from "../assets/img/quote-generator.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import project11 from "../assets/img/BookApp.png";
 import project12 from "../assets/img/weatherApp.png";
-
+import  project13 from "../assets/img/projectKhodam.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import { ProjectContainer } from "../Component/ProjectContainer";
@@ -82,13 +82,22 @@ export const Projects = () => {
       title: "Book Application ",
       desc: "ReactJs , NodeJs , JavaScript",
       image: project11,
-      link : "https://bookapp-sepia.vercel.app/",
+      link: "https://bookapp-sepia.vercel.app/",
     },
     {
       title: " Weather Application ",
       desc: "ReactJs , NodeJs , JavaScript",
       image: project12,
-      link : "https://weather-app-mu-sooty-55.vercel.app/",
+      link: "https://weather-app-mu-sooty-55.vercel.app/",
+    },
+  ];
+
+  const project3 = [
+    {
+      title: "Cek Khodam App",
+      desc: "Reactjs",
+      image: project13,
+      link: "https://cek-khodam.vercel.app/",
     },
   ];
 
@@ -116,7 +125,11 @@ export const Projects = () => {
               )}
             </TrackVisibility>
           </div>
-          <ProjectContainer projectData={projects} projectData2={projects2} />
+          <ProjectContainer
+            projectData={projects}
+            projectData2={projects2}
+            projects3={project3}
+          />
         </Row>
       </Container>
       <img className="background-image-right" src={colorSharp2}></img>
