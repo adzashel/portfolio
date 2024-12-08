@@ -97,7 +97,7 @@ export const Projects = () => {
       title: "Cek Khodam App",
       desc: "Reactjs",
       image: project13,
-      link: "https://cek-khodam.vercel.app/",
+      link: "https://cek-khodam-roan.vercel.app/",
     },
   ];
 
