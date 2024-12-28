@@ -8,6 +8,8 @@ import meter5 from "../assets/img/CSS.png";
 import meter6 from "../assets/img/node.jpg";
 import meter7 from "../assets/img/bootstrap.jpg";
 import tailwind from "../assets/img/tailwind.jpg";
+import mongodb from '../assets/img/mongodb.jpg';
+import expressjs from "../assets/img/expressjs.jpg"
 
 
 import { SkillItem } from '../Component/SkillItem';
@@ -65,6 +67,14 @@ export const CarouselItem = () => {
     {
       image :  tailwind,
       title :"Tailwind Css",
+    },
+    {
+      image :  expressjs,
+      title :"ExpressJs",
+    },
+    {
+      image :  mongodb,
+      title :"MongoDB",
     },
   ];
 

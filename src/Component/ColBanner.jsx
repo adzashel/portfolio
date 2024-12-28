@@ -19,7 +19,7 @@ const ColBanner = ({ name }) => {
                     I am a {" "}
                     <span>
                       <Typewriter
-                        words={["FrontEnd Dev", "React Dev", "Web Designer"]}
+                        words={["FrontEnd Dev", "React Dev", "MERN Dev"]}
                         loop={false}
                         typeSpeed={80}
                         deleteSpeed={50}

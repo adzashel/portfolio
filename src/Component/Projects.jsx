@@ -13,6 +13,8 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import project11 from "../assets/img/BookApp.png";
 import project12 from "../assets/img/weatherApp.png";
 import  project13 from "../assets/img/projectKhodam.png";
+import project14 from '../assets/img/loginform.jpg';
+import projImg15 from '../assets/img/weatherapp.png'
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import { ProjectContainer } from "../Component/ProjectContainer";
@@ -99,6 +101,16 @@ export const Projects = () => {
       image: project13,
       link: "https://cek-khodam-roan.vercel.app/",
     },
+    {
+      title: "Express Login Form",
+      desc: "Express , MongoDB",
+      image: project14,
+    },
+    {
+      title : "Weather Application with Forecast",
+      desc : "Reactjs",
+      image : projImg15,
+    }
   ];
 
   return (
