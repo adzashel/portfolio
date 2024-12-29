@@ -1,0 +1,32 @@
+[
+    {
+      "title": "Books Directory",
+      "description": "Vite And Bootstrap",
+      "imgUrl": "../src/assets/img/books.png"
+    },
+    {
+      "title": "Calculator",
+      "description": "HTML , CSS, JavaScript",
+      "imgUrl": "../src/assets/img/Calculator.png"
+    },
+    {
+      "title": "Employee ContactApp",
+      "description": "ExpressJS , JavaScript, NodeJs, Bootstrap",
+      "imgUrl": "../src/assets/img/MongoDb.png"
+    },
+    {
+      "title": "Business Startup",
+      "description": "ReactJs",
+      "imgUrl":"../src/assets/img/project-img3.png"
+    },
+    {
+      "title": "Travel Landing Page",
+      "description": "Vuejs ",
+      "imgUrl": "../src/assets/img/project-img1.png"
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "Vite , bootstrap, ReactJs",
+      "imgUrl" : "../src/assets/img/webport.png"
+    }
+]
