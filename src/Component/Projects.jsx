@@ -1,33 +1,14 @@
 import { Container, Row } from "react-bootstrap";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import  project13 from "../assets/img/projectKhodam.png";
-import project14 from '../assets/img/loginform.jpg';
-import projImg15 from '../assets/img/weatherapp.png'
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import { ProjectContainer } from "../Component/ProjectContainer";
 import project1 from '../database/project1.json'
 import project2 from '../database/project2.json'
+import project3 from '../database/project3.json'
 
 export const Projects = () => {
-  const project3 = [
-    {
-      title: "Cek Khodam App",
-      desc: "Reactjs",
-      image: project13,
-      link: "https://cek-khodam-roan.vercel.app/",
-    },
-    {
-      title: "Express Login Form",
-      desc: "Express , MongoDB",
-      image: project14,
-    },
-    {
-      title : "Weather Application with Forecast",
-      desc : "Reactjs",
-      image : projImg15,
-    }
-  ];
+ 
 
   return (
     <section className="project" id="projects">

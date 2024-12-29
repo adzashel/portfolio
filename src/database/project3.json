@@ -1,0 +1,19 @@
+[
+    {
+        "title" : "Cek Khodam",
+        "desc" : "ReactJs",
+        "image" : "../src/assets/img/projectKhodam.png",
+        "link" : "https://cek-khodam-roan.vercel.app/"
+    },
+    {
+        "title" : "Express Login Form",
+        "desc" : "Express, MongoDB",
+        "image" : "../src/assets/img/loginform.jpg"
+    }, 
+    {
+        "title" : "Weather Application with Forecast",
+        "desc" : "Reactjs",
+        "image" : "../src/assets/img/weatherapp.jpg",
+        "link" : "https://weather-amber-nine.vercel.app/"
+    }
+]
