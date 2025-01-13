@@ -13,7 +13,7 @@ import projImg7 from "../assets/img/todolist.png";
 import projImg8 from "../assets/img/WebDesign.png";
 import projImg9 from "../assets/img/GitHub-search.png";
 import projectImg10 from "../assets/img/quote-generator.png";
-import project11 from "../assets/img/BookApp.png";
+import project11 from "../assets/img/libraryapp.png";
 import project12 from "../assets/img/weatherApp.png";
 import project13 from "../assets/img/projectKhodam.png"
 import project14 from '../assets/img/express_login.png';
@@ -80,7 +80,7 @@ const project2 = [
   },
   {
     title: "Book Application ",
-    desc: "ReactJs , NodeJs , JavaScript",
+    desc: "Expressjs , NodeJs ",
     image: project11,
     link: "https://bookapp-sepia.vercel.app/",
   },

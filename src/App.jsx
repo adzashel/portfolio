@@ -13,7 +13,7 @@ import githubICon from "./assets/img/github.svg";
 import igIcon from "./assets/img/nav-icon3.svg";
 import twtIcon from "./assets/img/twitter-x.svg";
 
-function App() {
+ const App = () =>  {
 
   return (
     <>
