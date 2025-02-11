@@ -2,12 +2,12 @@ const SocialIcon = ({ tiktok ,github, ig , twt }) => {
   return (
     <div className="social-icon">
     <button>
-      <a href="https://www.tiktok.com/@ichbin_verr" target="_blank">
+      <a href="https://www.tiktok.com/@jie4code" target="_blank">
         <img src={tiktok} alt="Icon" />
       </a>
     </button>
     <button>  
-      <a href="https://github.com/Vermilion15" target="_blank">
+      <a href="https://github.com/adzashel" target="_blank">
         <img src={github} alt="Icon" />
       </a>
     </button>
