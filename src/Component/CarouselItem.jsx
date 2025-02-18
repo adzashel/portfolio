@@ -9,7 +9,8 @@ import meter6 from "../assets/img/node.jpg";
 import meter7 from "../assets/img/bootstrap.jpg";
 import tailwind from "../assets/img/tailwind.jpg";
 import mongodb from '../assets/img/mongodb.jpg';
-import expressjs from "../assets/img/expressjs.jpg"
+import expressjs from "../assets/img/expressjs.jpg";
+import python from '../assets/img/python.jpg'
 
 
 import { SkillItem } from '../Component/SkillItem';
@@ -75,6 +76,10 @@ export const CarouselItem = () => {
     {
       image :  mongodb,
       title :"MongoDB",
+    },
+    {
+      image :  python,
+      title :"Python",
     },
   ];
 
