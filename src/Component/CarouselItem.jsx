@@ -10,7 +10,7 @@ import meter7 from "../assets/img/bootstrap.jpg";
 import tailwind from "../assets/img/tailwind.jpg";
 import mongodb from '../assets/img/mongodb.jpg';
 import expressjs from "../assets/img/expressjs.jpg";
-import python from '../assets/img/python.jpg'
+import python from '../assets/img/python.png'
 
 
 import { SkillItem } from '../Component/SkillItem';

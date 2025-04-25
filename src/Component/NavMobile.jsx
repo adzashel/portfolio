@@ -1,3 +1,4 @@
+import { NavLink } from "react-bootstrap"
 
 const NavMobile = ({ onHandleBars }) => {
   return (
@@ -17,11 +18,10 @@ const NavMobile = ({ onHandleBars }) => {
         </label>
       </div>
       <div id="myLinks">
-        <a href="#home">Home</a>
-        <a href="#skill">Skill</a>
-        <a href="#projects">Project</a>
-        <a href="#contact">Contact</a>
-        <a href="#footer">Footer</a>
+        <NavLink href="#home">Home</NavLink>
+        <NavLink   href="#skill">Skill</NavLink>
+        <NavLink   href="#projects">Project</NavLink>
+        <NavLink   href="#contact">Contact</NavLink>
       </div>
    </>
   )

@@ -1287,4 +1287,8 @@ button:hover .button-text {
     transform-origin: 0 0;
     transform: rotate(40deg);
   }
+
+  .contact {
+    margin-top: -2em !important;
+  }
 }

@@ -4,14 +4,11 @@ import "animate.css";
 import TrackVisibility from "react-on-screen";
 import { ProjectContainer } from "../Component/ProjectContainer";
 import projImg1 from "../assets/img/books.png";
-import projImg2 from "../assets/img/Calculator.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/MongoDb.png";
 import projImg5 from "../assets/img/project-img1.png";
 import projImg6 from "../assets/img/webport.png";
-import projImg7 from "../assets/img/todolist.png";
 import projImg8 from "../assets/img/WebDesign.png";
-import projImg9 from "../assets/img/GitHub-search.png";
 import projectImg10 from "../assets/img/quote-generator.png";
 import project11 from "../assets/img/BookApp.png"
 import project12 from "../assets/img/weather-app.png";
@@ -25,11 +22,6 @@ const project1 = [
     title: "Books Directory",
     description: "Vite And Bootstrap",
     imgUrl: projImg1,
-  },
-  {
-    title: "Calculator",
-    description: "HTML , CSS, JavaScript",
-    imgUrl: projImg2,
   },
   {
     title: "Employee ContactApp",
@@ -54,18 +46,7 @@ const project1 = [
 ]
 
 const project2 = [
-  {
-    title: "TodoList App ",
-    desc: "Html , CSS , JavaScript",
-    image: projImg7,
-    link: "https://github.com/adzashel",
-  },
-  {
-    title: "Github Search User ",
-    desc: "React js",
-    image: projImg9,
-    link: "https://github-user-pink.vercel.app/",
-  },
+
   {
     title: "Web Design ",
     desc: "Figma , Photoshop",
