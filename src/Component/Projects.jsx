@@ -15,6 +15,7 @@ import project12 from "../assets/img/weather-app.png";
 import project13 from "../assets/img/projectKhodam.png"
 import project14 from '../assets/img/express_login.png';
 import project15 from '../assets/img/coffeeshop.png'
+import project16 from '../assets/img/POS.png'
 
 
 const project1 = [
@@ -42,6 +43,11 @@ const project1 = [
     title: "Portfolio Website",
     description: "Vite , bootstrap, ReactJs",
     imgUrl: projImg6,
+  },
+  {
+    title: "NextJs POS",
+    description: "NextJs , Supabase , Clerk , Xendit",
+    imgUrl: project16,
   },
 ]
 

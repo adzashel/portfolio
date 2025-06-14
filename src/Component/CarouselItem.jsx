@@ -11,6 +11,7 @@ import tailwind from "../assets/img/tailwind.jpg";
 import mongodb from '../assets/img/mongodb.jpg';
 import expressjs from "../assets/img/expressjs.jpg";
 import python from '../assets/img/python.png'
+import  typeScript from "../assets/img/ts.jpg"
 
 
 import { SkillItem } from '../Component/SkillItem';
@@ -80,6 +81,10 @@ export const CarouselItem = () => {
     {
       image :  python,
       title :"Python",
+    },
+    {
+      image :  typeScript,
+      title :"TypeScript",
     },
   ];
 

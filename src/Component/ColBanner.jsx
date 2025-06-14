@@ -14,7 +14,7 @@ const ColBanner = ({ name }) => {
                   }
                 >
                   <h5>Hi ! I am</h5> 
-                  <h1>{name}</h1>
+                  <h1 className="banner-name">{name}</h1>
                   <p>
                     I am a {" "}
                     <span>

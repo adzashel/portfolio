@@ -3,7 +3,7 @@ import ColBanner from "./ColBanner";
 import { ColImg } from '../Component/ColImg';
 
 const Banner = () => {
-  const name = "Adzashel Von Moreau";
+  const name = "Jiéyra De Châtillon";
 
   return (
     <section id="home">
