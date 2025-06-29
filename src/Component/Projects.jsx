@@ -16,13 +16,14 @@ import project13 from "../assets/img/projectKhodam.png"
 import project14 from '../assets/img/express_login.png';
 import project15 from '../assets/img/coffeeshop.png'
 import project16 from '../assets/img/POS.png'
+import project17  from '../assets/img/absensi.ku.png';
 
 
 const project1 = [
   {
-    title: "Books Directory",
-    description: "Vite And Bootstrap",
-    imgUrl: projImg1,
+    title: "Absence App",
+    description: "NextJs , Firebase , Twilio",
+    imgUrl: project17,
   },
   {
     title: "Employee ContactApp",

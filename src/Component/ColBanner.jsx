@@ -9,12 +9,12 @@ const ColBanner = ({ name }) => {
                 <div
                   className={
                     isVisible
-                      ? "animate__animated animate__fadeIn animate__slow"
+                      ? "animate__animated animate__fadeIn animate__slow "
                       : ""
                   }
                 >
                   <h5>Hi ! I am</h5> 
-                  <h1 className="banner-name">{name}</h1>
+                  <h1 className="banner-name ">{name}</h1>
                   <p>
                     I am a {" "}
                     <span>

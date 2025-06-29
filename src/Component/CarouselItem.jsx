@@ -12,6 +12,7 @@ import mongodb from '../assets/img/mongodb.jpg';
 import expressjs from "../assets/img/expressjs.jpg";
 import python from '../assets/img/python.png'
 import  typeScript from "../assets/img/ts.jpg"
+import nextjs from '../assets/img/nextjs.jpg';
 
 
 import { SkillItem } from '../Component/SkillItem';
@@ -85,6 +86,10 @@ export const CarouselItem = () => {
     {
       image :  typeScript,
       title :"TypeScript",
+    },
+    {
+      image :  nextjs,
+      title :"NextJs",
     },
   ];
 

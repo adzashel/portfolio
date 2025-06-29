@@ -34,12 +34,13 @@ body {
   display: none;
 }
 
+
 #myLinks {
   display: none;
 }
 
 .banner-name {
-  width: 450px;
+  width: 550px;
 }
 .proj-text {
   list-style-type: none;
